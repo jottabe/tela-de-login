@@ -7,6 +7,7 @@
 
     section#login{
         width: 80vw;
+        height: 330px;
     }
 
     section#login > div#imagem{
@@ -16,7 +17,7 @@
         background-position: center;
     }
 
-    section#login > div#formulario{
+    section#login > div#fomulario{
         float: right;
         width: 60%;
     }
@@ -24,6 +25,35 @@
     div#fomulario > p{
         text-align: center;
         font-size: 1em;
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        margin: auto;
+        width: 50% ;
+        height: 40px;
+        background-color:#49a09d ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        margin: 10px auto;
+        width: 50%;
+        height: 30px;
+        padding-top: 5px;
+        margin-top: 5px;
+        background-color: white;
+        color: #3b817e;
+        border: 1px solid #49a09d ;
+        border-radius: 5px;
+        text-decoration: none;
     }
 }
 
@@ -34,6 +64,7 @@
     
     section#login{
         width: 950px;
+        height: 330px;
     }
 
     section#login > div#imagem{
@@ -42,7 +73,7 @@
         height: 100%;
     }
     
-    section#login > div#formulario{
+    section#login > div#fomulario{
         float: right;
         width: 50%;
     }
@@ -50,5 +81,35 @@
     div#fomulario > p{
         text-align: center;
         font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        margin: auto;
+        width: 50% ;
+        height: 40px;
+        background-color:#49a09d ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        margin: auto;
+        width: 50%;
+        height: 30px;
+        padding-top: 5px;
+        margin-top: 5px;
+        background-color: white;
+        color: #3b817e;
+        border: 1px solid #49a09d ;
+        border-radius: 5px;
+        text-decoration: none;
     }
 }
