@@ -11,13 +11,19 @@
 
     section#login > div#imagem{
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
+        background-position: center;
     }
 
     section#login > div#formulario{
         float: right;
-        width: 70%;
+        width: 60%;
+    }
+
+    div#fomulario > p{
+        text-align: center;
+        font-size: 1em;
     }
 }
 
@@ -31,7 +37,7 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -39,5 +45,10 @@
     section#login > div#formulario{
         float: right;
         width: 50%;
+    }
+
+    div#fomulario > p{
+        text-align: center;
+        font-size: 1em;
     }
 }
